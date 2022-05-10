@@ -42,37 +42,39 @@ li {
     
 }
 
-#navitems {
-    margin-left: -32px;
-}
-#testimonials {
-    background: 
+
+/* #testimonials {
+    background:  */
       /* top, transparent red, faked with gradient */ 
-      linear-gradient(
+      /* linear-gradient(
         rgba(255, 0, 0, 0.45), 
         rgba(255, 0, 0, 0.45)
-      ),
+      ), */
       /* bottom, image */
-      url(image.jpg);
+      /* url(image.jpg);
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
   }  
 .rounded-circle {
-  width: 43%;
+  width: 43%; */
   /* makes perfect square */
-  aspect-ratio: 1;
-  object-fit: cover;  
+  /* aspect-ratio: 1; */
+  /* object-fit: cover;   */
   /* make image move in circle */
-  object-position: 5px 3px;
+  /* object-position: 5px 3px; */
   /* makes perfect circle */
-  border-radius: 50%;
-}
+  /* border-radius: 50%;
+} */
 
 /* make button circle */
-.circle{
+/* .circle{
   width: 20px !important;
   aspect-ratio: 1 !important;
   height: auto !important;
   border-radius: 50% !important;
-}
+} */
+.home-content{
+    display: flex;
+    flex-wrap: wrap-reverse !important;
+    align-items: center !important;}
