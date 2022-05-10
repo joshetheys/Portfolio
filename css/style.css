@@ -8,6 +8,7 @@ body {
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
+    padding-top: 5px;
 }
 
 @keyframes gradient {
@@ -43,4 +44,35 @@ li {
 
 #navitems {
     margin-left: -32px;
+}
+#testimonials {
+    background: 
+      /* top, transparent red, faked with gradient */ 
+      linear-gradient(
+        rgba(255, 0, 0, 0.45), 
+        rgba(255, 0, 0, 0.45)
+      ),
+      /* bottom, image */
+      url(image.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+  }  
+.rounded-circle {
+  width: 43%;
+  /* makes perfect square */
+  aspect-ratio: 1;
+  object-fit: cover;  
+  /* make image move in circle */
+  object-position: 5px 3px;
+  /* makes perfect circle */
+  border-radius: 50%;
+}
+
+/* make button circle */
+.circle{
+  width: 20px !important;
+  aspect-ratio: 1 !important;
+  height: auto !important;
+  border-radius: 50% !important;
 }
