@@ -8,6 +8,12 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
@@ -33,11 +39,11 @@
             </div>
         </nav>
         </div>
-        <h1 class="display-2 text-center">About</h1>
+        <h1 class="display-2 text-center my-5">About</h1>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img class="img-fluid" src="./images/Joshe Jade (1).JPG" alt="My Image" style="height: 100%; ">
+                <img class="img-fluid image" src="./images/Joshe Jade (1).JPG" alt="My Image" style="height: 100%;">
             </div>
             <div class="col-md-8">
                 <h2>
@@ -47,20 +53,22 @@
                     Aspiring  Developer
                 </h5>
                 <p class="text-capitalize">
-                    I am currently completing a course in Web
-                    Development and Programming. I am a creative, talented and motivated individual who will add value
-                    to
-                    the workplace. I have a passion for exploring creative, modern solutions to everyday problems and I
-                    believe a career as a developer allows me to explore these solutions practically.
+                    I'm Joshe Jade Theys, an aspiring junior developer. I am currently completing a course in Web Development and Programming. I am a very creative person with a passion for the arts. You can find me writing poetry over the weekends. As a result of my creative mind, I am able to solve problems in innovative ways. I am a capable leader and I undertook a leadership course at Stellenbosch University. As part of the curriculum, I learned how to be a leader who is respectful of diversity in the workplace and one who can find the best way to address problems. I believe that my creativity will improve my coding and feed my passion for web design.
                 </p>
+               
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-3 col-xs-3">
                         <div>Birthday</div>
                         <div>Phone</div>
                         <div>Email</div>
                         <div>Location</div>
                         <div>Language</div>
                         <div>Hobbies</div>
+                        
+                        <div>
+                        <button class=" btn btn-primary rounded-pill" type="button">Download CV</button>
+                    </div>
+                       
                     </div>
                     <div class="col-1">
                         <div> : </div>
@@ -69,94 +77,190 @@
                         <div> : </div>
                         <div> : </div>
                         <div> : </div>
+                        
                     </div>
-                    <div class="col-4">
+                    <div class="col-7 col-xs-8">
                         <div>23 July 2001</div>
                         <div>074 485 0721</div>
                         <div>JosheTheys@gmail.com</div>
                         <div>Cape Town</div>
                         <div>English & Afrikaans</div>
                         <div>Reading, watching Series</div>
+                        <div>
+                            <button class=" btn btn-primary rounded-pill" type="button">GitHub</button>
+                        </div>
                     </div>
 
                 </div>
 
-                <div class="row">
-                    <!-- <div class="d-grid gap-5 d-md-block"> -->
-                    <div class="col-2">
-                        <button class="w-100 btn btn-primary rounded-pill" type="button">Download CV</button>
+                <!-- <div class="row">
+                    <div class="d-grid gap-5 d-md-block">
+                    <div class="col-2 mx-6">
+                        <button class=" btn btn-primary rounded-pill" type="button">Download CV</button>
                     </div>
-                    <div class="col-2">
-                        <button class="w-100 btn btn-primary rounded-pill" type="button">GitHub</button>
+                    <div class="col-2 mx-6">
+                        <button class=" btn btn-primary rounded-pill" type="button">GitHub</button>
                     </div>
 
 
-                    <!-- </div> -->
-                </div>
+                    </div>
+                </div> -->
 
             </div>
         </div>
 
     </div>
+    <h1 class="display-2 text-center p-5" >Skills</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                CSS
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                  </div>
+            </div>
+            <div class="col-4">
+                HTML
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                  </div>
+            </div>
+            <div class="col-4">
+                JavaScript
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+                  </div>
+            </div>
+        </div>
+    </div>
     <br>
-    <section id="testimonials"  >
-        <div class="container text-white text-center p-5">
-            <h2>Testimonials</h2>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide  1" class="circle"> </button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2" class="circle"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3" class="circle"></button>
-                </div>
-                <div class="carousel-inner pb-5">
-                    <div class="carousel-item active">
-                        <img src="./images/Mikhail (2).JPG" class="rounded-circle" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Mikhail Thomas</h5>
-                            <!-- To make text red: style="-webkit-text-stroke: 1px red;" -->
-                            <p class="w-50"> I have been working with Joshe for the past month as a colleague of Life Choices Academy
-                                coding
-                                internship. Inside and outside the classroom Joshe's wonderful personality and
-                                intelligence makes her
-                                presents warm welcoming. When working on a projects with Joshe she was always well
-                                informed and she's a
-                                bit of a perfectionist these aspects alone made her a valued and respected team member.
-                                If you choose to
-                                make her a part of your team and company you wont be dissapointed.</p>
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-sm-12">
+                
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <h2>See What <b>People</b> Have to Say About Me</h2>
+                    
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>   
+                   
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="testimonial-wrapper">
+                                        <div class="testimonial">I have been working with Joshe for the past month as a colleague of Life Choices Academy
+                                            coding
+                                            internship. Inside and outside the classroom Joshe's wonderful personality and
+                                            intelligence makes her
+                                            presents warm welcoming. When working on a projects with Joshe she was always well
+                                            informed and she's a
+                                            bit of a perfectionist these aspects alone made her a valued and respected team member.
+                                            If you choose to
+                                            make her a part of your team and company you wont be dissapointed.</div>
+                                        <div class="media">
+                                            <img src="./images/Mikhail (2).JPG" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name"><b>Mikhail Thomas</b></div>
+                                                    <div class="details">Classmate</div>
+                                                   
+                                                </div>										
+                                            </div>
+                                        </div>
+                                    </div>								
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="testimonial-wrapper">
+                                        <div class="testimonial">Joshe is a person with a very positive out look on life, she is open minded and is
+                                            tolerant of everyone.
+                                            She has her own strong beliefs, but she is also very respect other people's beliefs. I
+                                            have known Joshe
+                                            for a month now. I was drawn to her from day one. She is able to hold conversation, and
+                                            can fully engage
+                                            with any topic. I respect her work ethic, and her drive. she is a person that is able to
+                                            move from not
+                                            knowing to knowing swiftly, because she understands herself, and how she learns best. As
+                                            a team player,
+                                            she is a joy to work with, as she pulls her own weight and is a responsible, interactive
+                                            person. </div>
+                                        <div class="media">
+                                            <img src="./images/Amanda (3).JPG" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name"><b>Amanda Gudlwa</b></div>
+                                                    <div class="details">Classmate</div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>								
+                                </div>
+                            </div>			
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/Amanda (3).JPG" class="rounded-circle" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Amanda Gudlwa</h5>
-                            <p> Joshe is a person with a very positive out look on life, she is open minded and is
-                                tolerant of everyone.
-                                She has her own strong beliefs, but she is also very respect other people's beliefs. I
-                                have known Joshe
-                                for a month now. I was drawn to her from day one. She is able to hold conversation, and
-                                can fully engage
-                                with any topic. I respect her work ethic, and her drive. she is a person that is able to
-                                move from not
-                                knowing to knowing swiftly, because she understands herself, and how she learns best. As
-                                a team player,
-                                she is a joy to work with, as she pulls her own weight and is a responsible, interactive
-                                person.</p>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="testimonial-wrapper">
+                                        <div class="testimonial">Joshe Theys, A person with uncapped talent and a perspective of positivity. In my time with her I've seen her go from zero to hero, she is an diligent and daring individual, always making sure her work is done and expeditiously completing them without fail, Joshe is a peoples person and talking to her makes every interaction fun,  when it comes to working in a team she takes initiative to bring everyone together and is very vocal when it comes to planning making her a asset to any team and work force. </div>
+                                        <div class="media">
+                                            <img src="./images/mikhail.png" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name"><b>Emile van der Wyk</b></div>
+                                                    <div class="details">Classmate</div>											
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>								
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="testimonial-wrapper">
+                                        <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi gravida.</div>
+                                        <div class="media">
+                                            <img src="./images/mikhail.png" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name"><b>Reagan Carolussen</b></div>
+                                                    <div class="details">Classmate</div>
+                                                    
+                                                </div>										
+                                            </div>
+                                        </div>
+                                    </div>								
+                                </div>
+                            </div>			
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://picsum.photos/200/300" class="rounded-circle" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Emile van Wyk</h5>
-                            <p>Joshe Theys, A person with uncapped talent and a perspective of positivity. In my time with her I've seen her go from zero to hero, she is an diligent and daring individual, always making sure her work is done and expeditiously completing them without fail, Joshe is a peoples person and talking to her makes every interaction fun,  when it comes to working in a team she takes initiative to bring everyone together and is very vocal when it comes to planning making her a asset to any team and work force.</p>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="testimonial-wrapper">
+                                        <div class="testimonial">Joshe has proven to have a vital understanding of the HTML & CSS topics we have been studying. Joshe is doing very well and enjoys her classes. Your organization would be well served by her. Joel Mukanya - her coding Lecturer</div>
+                                        <div class="media">
+                                            <img src="./images/joel2.jpg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name"><b>Joel Mukanya</b></div>
+                                                    <div class="details">Lecturer</div>
+                                                   
+                                                </div>										
+                                            </div>
+                                        </div>
+                                    </div>								
+                                </div>
+                               
+                            </div>			
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
+    </div>
+   
 
     </section>
         <div class="social">
