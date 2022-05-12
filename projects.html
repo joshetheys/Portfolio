@@ -33,14 +33,13 @@
             </div>
         </nav>
         </div>
-       
-        <!-- <section id="projects" class="py-5 text-center">
+        <section id="projects" class="py-5 text-center">
             <div class="container">
               <h2 class="display-2 text-center mb-5">Projects</h2>
               <div class="projects-container">
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="https://picsum.photos/600?random=1" />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal2" src="https://picsum.photos/600/900?random=2" />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal3" src="https://picsum.photos/600/800?random=3" />
+                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./images/calculator.png" />
+                <img data-bs-toggle="modal" data-bs-target="#exampleModal2" src="./images/leaf.png" />
+                <img data-bs-toggle="modal" data-bs-target="#exampleModal3" src="./images/holiday.png" />
                 <img data-bs-toggle="modal" data-bs-target="#exampleModal4" src="https://picsum.photos/400/750?random=4" />
                 <img data-bs-toggle="modal" data-bs-target="#exampleModal5" src="https://picsum.photos/400?random=5" />
                 <img data-bs-toggle="modal" data-bs-target="#exampleModal6" src="https://picsum.photos/600/400?random=6" />
@@ -49,10 +48,10 @@
                 <img data-bs-toggle="modal" data-bs-target="#exampleModal9" src="https://picsum.photos/600?random=9" />
               </div>
             </div>
-          </section> -->
+          </section>
           <!-- Modals go here -->
           <!-- Modal -->
-        <!-- <div
+        <div
         class="modal fade"
         id="exampleModal"
         tabindex="-1"
@@ -76,19 +75,19 @@
                   <div class="col-md-6">
                     <img
                       class="img-fluid"
-                      src="https://picsum.photos/600?random=1"
+                      src="./images/calculator.png"
                     />
                   </div>
                   <div class="col-md-6">
-                    <h4>Project 1</h4>
+                    <h4>Calculator</h4>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eveniet facere officiis, impedit esse fugit reprehenderit
-                      sit, nostrum possimus veritatis quisquam harum quas quo
-                      rerum beatae obcaecati qui, ex ipsam doloribus asperiores
-                      nemo dolorem. Sunt labore repudiandae praesentium eveniet
-                      adipisci corporis ipsa. Iure natus molestias laudantium
-                      optio recusandae, similique facere omnis!
+                     I created a calculator design with HTMl and CSS.
+                    </p>
+                    <p>
+                      GitHub link: https://github.com/joshetheys/calculator
+                    </p>
+                    <p>
+                      Netlify link: https://jovial-seahorse-031639.netlify.app/
                     </p>
                   </div>
                 </div>
@@ -129,19 +128,19 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-6">
-                  <img class="img-fluid" src="https://picsum.photos/600/900?random=2" 
+                  <img class="img-fluid" src="./images/leaf.png" 
                   />
                 </div>
                 <div class="col-md-6">
-                  <h4>Project 2</h4>
+                  <h4>Leaf</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eveniet facere officiis, impedit esse fugit reprehenderit
-                    sit, nostrum possimus veritatis quisquam harum quas quo
-                    rerum beatae obcaecati qui, ex ipsam doloribus asperiores
-                    nemo dolorem. Sunt labore repudiandae praesentium eveniet
-                    adipisci corporis ipsa. Iure natus molestias laudantium
-                    optio recusandae, similique facere omnis!
+                   I created the shape of a leaf with CSS.
+                  </p>
+                  <p>
+                    GitHub link: https://github.com/joshetheys/leaf
+                  </p>
+                  <p>
+                    Netlify link: https://jade-shortbread-5e05c4.netlify.app/
                   </p>
                 </div>
               </div>
@@ -159,8 +158,63 @@
           </div>
         </div>
       </div>
-    </div> -->
-    <section class="bg-light text-dark py-5" id="portfolio">
+    </div>
+
+    <div
+    class="modal fade"
+    id="exampleModal2"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog mw-100 p-5">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Project 2</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <img class="img-fluid" src="./images/holiday.png" 
+                />
+              </div>
+              <div class="col-md-6">
+                <h4>Holiday</h4>
+                <p>
+                 I created a website page that contains details of my ideal holiday destination.
+                </p>
+                <p>
+                  GitHub link: https://github.com/joshetheys/holiday_destination
+                </p>
+                <p>
+                  Netlify link: 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+       
+    <!-- <section class="bg-light text-dark py-5" id="portfolio">
         <div class="container">
           <h2>Portfolio</h2>
           <h6>Subtitle</h6>
@@ -230,12 +284,18 @@
             </div>
           </div>
         </div>
-      </section>
-        <div class="social">
-            <a href="https://www.instagram.com/joshe_2001/" class="instagram"><i class="bi bi-instagram" style="font-size: 3rem;"></i></a> 
-            <a href="https://www.linkedin.com/in/josh%C3%A9-theys-599094237/" class="linkedin"><i class="bi bi-linkedin" style="font-size: 3rem;"></i></a>
-            <a href="https://github.com/joshetheys" class="github"><i class="bi bi-github" style="font-size: 3rem;"></i></a>
-       </div>
+      </section> -->
+      <footer class="footer mt-auto py-3 bg-light ">
+        <div class="container">
+            <div class="social">
+                <a href="https://www.instagram.com/joshe_2001/" class="instagram"><i class="bi bi-instagram"
+                        style="font-size: 3rem;"></i></a>
+                <a href="https://www.linkedin.com/in/josh%C3%A9-theys-599094237/" class="linkedin"><i class="bi bi-linkedin"
+                        style="font-size: 3rem;"></i></a>
+                <a href="https://github.com/joshetheys" class="github"><i class="bi bi-github" style="font-size: 3rem;"></i></a>
+            </div>
+        </div>
+      </footer>
 
     <script src="./script/code.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
