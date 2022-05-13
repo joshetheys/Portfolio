@@ -11,6 +11,8 @@ body {
     padding-top: 5px;
 }
 
+
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -179,18 +181,30 @@ h6 {
   border-radius: 50%;
   background-color: rgb(248, 249, 250);
 }  
-/*--------------------------------------------------------------
-  # Contact
-  --------------------------------------------------------------*/
-  /* .contact .info-box {
-    color: #444444;
-    padding: 20px;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.08);
-  } */
-  
-  
+.media {
+	object-fit: cover;
+	width: 150px !important;
+    aspect-ratio: 1 !important;
+    height: auto !important;
+    border-radius: 50% !important;
+}
 
+/* .testimonial{
+	
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: auto;
+    height: 182px;
+    border-top-left-radius: 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin: 0;
+    padding: 0;
+} */
 
+/* #about-profile-img {
+	top: 100%;
+} */
  
   
