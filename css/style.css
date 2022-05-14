@@ -4,8 +4,8 @@
 }
 
 body {
-	background: linear-gradient(-45deg, #908886, #e99fbb, #a8d4e4, #0f1111);
-	background-size: 400% 400%;
+	background: linear-gradient(-45deg, #908886, #e99fbb, #a8d4e4, #c785b9);
+	background-size: 1600% 1600%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
     padding-top: 5px;
@@ -134,8 +134,8 @@ h2::after {
 	border: 5px double;    
 }
 .home-content{
-    display: flex;
-    flex-wrap: wrap-reverse !important;
+    /* display: flex;
+    flex-wrap: wrap-reverse !important; */
     align-items: center !important;
     height: 100vh;
     width: 100% !important;
@@ -152,6 +152,11 @@ h2::after {
   width: 400px;
 }  
 }
+@media all and (max-width: 575px) {
+	.landing-image{
+	  display: none;
+	}  
+	}
 
 .section-title {
   text-align: center;
@@ -189,22 +194,5 @@ h6 {
     border-radius: 50% !important;
 }
 
-/* .testimonial{
-	
-    display: flex;
-    justify-content: center;
-    border-radius: 20px;
-    width: auto;
-    height: 182px;
-    border-top-left-radius: 0;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin: 0;
-    padding: 0;
-} */
 
-/* #about-profile-img {
-	top: 100%;
-} */
- 
   
